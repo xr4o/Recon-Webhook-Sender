@@ -1,5 +1,5 @@
 @echo off   
-title Recon Sender
+title S_Sender
 set /p webhook=Webhook : 
 :send
 cls
@@ -8,4 +8,4 @@ curl -X POST -H "Content-type: application/json" --data "{\"content\": \"%messag
 goto :send
 pause
 
-::keep clicking enter once you put in the message cuz itll spam if u wwant to spam
+:: Spaming enter spams previous message.
